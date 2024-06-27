@@ -13,12 +13,12 @@ const PORT = process.env.PORT || 4653;
 
 dotenv.config();
 
-app.use(express.json()); // to parse the incoming requests woth JSON payloads (from req.body)
-app.use(cookieParser())
+app.use(express.json()); // to parse the incoming requests with JSON payloads (from req.body)
+app.use(cookieParser());
 
-app.use("/api/auth",authRoutes);
-app.use("/api/messages", messageRoutes)
-app.use("/api/users", userRoutes)
+app.use("/api/auth", authRoutes);
+app.use("/api/messages", messageRoutes);
+app.use("/api/users", userRoutes);
 
 
 // app.get("/", (req,res) => {

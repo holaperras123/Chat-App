@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": "oklch(var(--primary-muted) / rgb(56, 37, 101))",
+        "primary": "oklch(var(--primary-muted) / rgb(76 29 149))",
       },
     },
   },
