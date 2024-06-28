@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/ap-pixelated.png"); /*Cambiar URL!!!*/
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/ap_ap.jpeg"); /*Cambiar URL!!!*/
   background-repeat: repeat;
   background-size: contain;
   background-position: center;
